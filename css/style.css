@@ -23,13 +23,13 @@ html, body {
 body {
     margin-top: 50px;
     background-color: var(--dark);
-    color: var(--accent-dark);
+    color: var(--bright);
     font-family: "Rounded Elegance";
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--accent-dark);
 }
 
 .center {
