@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.button {
+    background-color: var(--darker);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 0 3px 7px 3px var(--darkest);
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 3px 15px 7px var(--darkest);
+    transition: 0.5s;
+}

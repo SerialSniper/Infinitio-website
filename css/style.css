@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url("font.css");
+@import url("header.css");
+@import url("section.css");
+@import url("button.css");
+
+:root {
+    --darkest: #0F0F0F;
+    --darker: #1E1E1E;
+    --dark: #2D2D2D;
+    --light: #3C3C3C;
+    --accent-dark: #79378b;
+    --accent: #953FAC;
+    --accent-light: #b04ccc;
+    --bright: #CCCCCC;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 50px;
+    background-color: var(--dark);
+    color: var(--accent-dark);
+    font-family: "Rounded Elegance";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-div {
+    width: 10px;
+}
+
+.v-div {
+    height: 10px;
+}
+
+::selection {
+    background-color: var(--accent-dark);
+}
