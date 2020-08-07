@@ -3,17 +3,46 @@
 section {
     width: 100%;
     height: calc(100vh - 50px);
-    padding: 0 50px;
+    padding: 0 50px 0 0;
     box-sizing: border-box;
+}
+
+section .text {
+    width: 50vw;
+    height: inherit;
+    float: right;
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+section .image {
+    width: 40vw;
+    height: inherit;
+    float: left;
+
+    height: inherit;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section.alt {
+    padding: 0 0 0 50px ;
     background-color: var(--darker);
     text-align: left;
+}
+
+section.alt .text {
+    float: left;
+    text-align: left;
+}
+
+section.alt .image {
+    float: right;
 }
 
 section h1 {

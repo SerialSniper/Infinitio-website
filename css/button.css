@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 .button {
+    display: inline-block;
     background-color: var(--darker);
     padding: 10px 20px;
     border-radius: 7px;
